@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--scheme grey -->
+    <color name="colorPrimary">#616161</color>
+    <color name="colorPrimaryDark">#373737</color>
+    <color name="colorPrimaryLight">#8e8e8e</color>
+    <color name="colorAccent">#bdbdbd</color>
+
+    <!--scheme deep-purple
+    <color name="colorPrimary">#311b92</color>
+    <color name="colorPrimaryDark">#000063</color>
+    <color name="colorPrimaryLight">#6746c3</color>
+    <color name="colorAccent">#bdbdbd</color> -->
+
+
+    <color name="red">#ff0000</color>
+    <color name="green">#9de7a0</color>
+</resources>

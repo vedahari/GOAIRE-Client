@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">GOAIRE</string>
+    <string name="about_content">
+        This android application based on the following research publication.\n\n
+        <b>Title:</b> Online Algorithms for Automotive Idling Reduction With Effective Statistics\n
+        \n<b>Authors:</b>Chuansheng Dong - Department of Electrical and Computer Engineering, McGill University, Montreal, QC, Canada
+        \nHaibo Zeng - Department of Electrical and Computer Engineering, Virginia Tech, Blacksburg, VA, USA
+        \nMinghua Chen - Department of Information Engineering, Chinese University of Hong Kong, Hong Kong\n
+        \n<b>Abstract:</b>  Idling, or running the engine when the vehicle is not moving,
+        accounts for 13%-23% of vehicle driving time and costs billions of gallons of fuel each year.
+        In this paper, we consider the problem of idling reduction under the uncertainty of vehicle stop time.
+        We abstract it as a classic ski rental problem, and propose a constrained version with two statistics μB- and qB+, the expected length of short stops and the probability of long stops.
+        We develop two online algorithms, a suboptimal closed-form algorithm and an optimal numerical solution,
+        that combine the best of the well-known deterministic and randomized schemes to minimize the worst case competitive ratio.
+        We demonstrate the algorithms perform better than existing solutions in terms of both worst case guarantee and average case performance using simulation and real-world driving data.
+        \n<b><a href="http://ieeexplore.ieee.org/document/7214234/">IEEE Link</a></b>
+    </string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="break_even_def_text">Break-even Interval (B)</string>
+
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>
